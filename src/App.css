@@ -5,11 +5,4 @@
     text-decoration: none;
     list-style-type: none;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    background:url("images/bg.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
-}
+
