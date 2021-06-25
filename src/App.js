@@ -10,6 +10,7 @@ import './App.css';
 import Login from './Components/Login/Login';
 import SelectFlight from './Components/SelectFlight/SelectFlight';
 import PrivateRoute from './Components/Login/PrivateRoute';
+import StoreData from './Components/StoreData/StoreData';
 
 export const UserContext = createContext();
 
@@ -32,6 +33,9 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          {/* <Route path="/store">
+            <StoreData />
+          </Route> */}
           <PrivateRoute path="/selectFlight">
             <SelectFlight />
           </PrivateRoute>

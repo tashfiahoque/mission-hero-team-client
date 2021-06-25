@@ -14,7 +14,8 @@ const Navbar = () => {
     return (
         <nav className="container">
             <ul>
-                <li><Link className="nav-link" to="/home" >Home</Link></li>
+                <li><Link className="nav-link" to="/home">Home</Link></li>
+                {/* <li><Link className="nav-link" to="/store">Store Data</Link></li> */}
                 {user.name && <h6 style={{ color: '#D3A21F' }}>{user.name}&nbsp;&nbsp;</h6>}
                 {user.name || user.email
                     ? <li className="nav-item active mainNav__hover">
